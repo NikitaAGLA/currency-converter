@@ -42,6 +42,14 @@ header {
 }
 main{
     width: 641px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+
+}
+.h1 {
+    margin: 0;
 }
 h1{
     font-weight: 700;
