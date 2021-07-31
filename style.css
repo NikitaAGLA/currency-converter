@@ -12,6 +12,9 @@ header {
     
 .headerMain {
     display: flex;
+    justify-content: space-between;
+    width: 950px;
+    align-items: center;
 }
 
 .headerMain li {
@@ -22,11 +25,41 @@ header {
     color: #959BA4;
     text-decoration: none;
     font-weight: 500;
+    margin-right: 22px;
 }
 .headerMain li a:hover {
     color: #000000;
 }
-.headerMain ul {
+
+.headerMain button{
+    width: 58px;
+    height: 33px;
+    background-color: white;
+    font-weight: 500;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 11px;
+}
+main{
+    width: 641px;
+}
+h1{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 56px;
+    font-size: 36px;
+    margin-bottom: 33px;
+    
+}
+
+.converterContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.leftSection{
+    width: 259px;
+}
+.rightSection{
+    width: 259px;
 }
