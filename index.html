@@ -30,7 +30,7 @@
     </header>
     
     <main>
-        <div>
+        <div class="h1">
         <h1>Конвертер валют онлайн</h1>
         </div>
         <div class="converterContainer">
@@ -38,13 +38,18 @@
             <div class="leftSection">
                 <div class="changeCurrency">
                     <p>У меня есть</p>
-                    <span>RUB</span>
-                    <span>USD</span>
-                    <span>EUR</span>
-                    <span>GBR</span>
+                    <div>
+                        <button>RUB</button>
+                        <button>USD</button>
+                        <button>EUR</button>
+                        <button>GBR</button>
+                    </div>
                 </div>
                 <div class="inputValue">
-
+                    <form action="">
+                        <input type="text" value="1">
+                    </form>
+                    <span>1 RUB = 0.0135 USD</span>
                 </div>
                 <span class="leftSectionCourse"></span>
             </div>
@@ -52,18 +57,22 @@
             <div class="rightSection">
                 <div class="changeCurrency">
                     <p>Хочу приобрести</p>
-                    <span>RUB</span>
-                    <span>USD</span>
-                    <span>EUR</span>
-                    <span>GBR</span>
+                    <div>
+                        <button>RUB</button>
+                        <button>USD</button>
+                        <button>EUR</button>
+                        <button>GBR</button>
+                    </div>
                 </div>
                 <div class="outValue">
-
+                    <p>73.8896</p>
+                    <span>1 USD = 73.8896 RUB</span>
                 </div>
                 <span class="rightSectionCourse"></span>
             </div>
 
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
