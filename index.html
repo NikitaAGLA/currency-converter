@@ -39,15 +39,15 @@
                 <div class="changeCurrency">
                     <p>У меня есть</p>
                     <div>
-                        <button>RUB</button>
-                        <button>USD</button>
-                        <button>EUR</button>
-                        <button>GBR</button>
+                        <button name="RUB">RUB</button>
+                        <button name="USD">USD</button>
+                        <button name="EUR">EUR</button>
+                        <button name="GBR">GBR</button>
                     </div>
                 </div>
                 <div class="inputValue">
                     <form action="">
-                        <input type="text" value="1">
+                        <input type="number" name="leftInput" value="1">
                     </form>
                     <span>1 RUB = 0.0135 USD</span>
                 </div>
@@ -58,14 +58,16 @@
                 <div class="changeCurrency">
                     <p>Хочу приобрести</p>
                     <div>
-                        <button>RUB</button>
-                        <button>USD</button>
-                        <button>EUR</button>
-                        <button>GBR</button>
+                        <button name="RUB">RUB</button>
+                        <button class="active" name="USD">USD</button>
+                        <button name="EUR">EUR</button>
+                        <button name="GBR">GBR</button>
                     </div>
                 </div>
                 <div class="outValue">
-                    <p>73.8896</p>
+                    <form action="">
+                        <input type="number" name="rightInput" value="">
+                    </form>
                     <span>1 USD = 73.8896 RUB</span>
                 </div>
                 <span class="rightSectionCourse"></span>
