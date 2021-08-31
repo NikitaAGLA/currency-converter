@@ -103,7 +103,6 @@ function addActive (elem) {
         };
     });
     
-    //------------right input-----------//
     
     rightBtn.forEach((e)=>{
         e.onclick = (event) => {
@@ -111,45 +110,3 @@ function addActive (elem) {
             changeCurs(event, 'right');
         };
     });
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    // // Ввод в правый инпут
-    // rightInp.oninput = (event) => {
-    //     enterRightCurrency (event);
-    // }
-    
-    // //Обработка вводимых данных в правый инпут и запрос текущего курса валют
-    // function enterRightCurrency (event, numCurrency) {
-    //     numCurrency = Number(typeof event.srcElement != 'undefined'?event.srcElement.value:numCurrency);
-    //     cursRight(leftCurs, rightCurs, numCurrency);
-    // }
-    
-    // //Функция для получения текущего курса валюты
-    // //Расчет текущего курса валют
-    // function cursRight (base, symbols, num) {
-    //     fetch(`https://api.exchangerate.host/latest?base=${base}&symbols=${symbols}`)
-    //     .then((response) => response.json())
-    //     .then(result => {
-    //         //Расчет текущего курса валют
-    //         leftInp.value = Number(result.rates[symbols])*Number(num);
-    //     })
-    // }
-    
-    // function changeCurs (event) {
-    //     // leftInp.value=1;
-    //     rightCurs = event.target.name;
-    //     rightBtn.forEach((elem) => {
-    //         elem.removeAttribute('style');    
-    //     });
-    //     addActive(event.target);
-    //     enterCurrency(leftInp);
-    // }
-    
