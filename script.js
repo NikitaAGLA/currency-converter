@@ -56,10 +56,6 @@ function addActive (elem) {
             $btn = rightBtn;
         }
 
-        
-
-        // $input.value=1;
-        // $curs = event.target.name;
         $btn.forEach((elem) => {
             elem.removeAttribute('style');    
         });
@@ -71,7 +67,6 @@ function addActive (elem) {
     let leftCurs = 'RUB';
     let rightCurs = 'RUB';
 
-    
     
     let leftBtn = document.querySelectorAll('.leftSection button');
     let leftInp = document.querySelector('.inputValue input');
