@@ -14,6 +14,7 @@ function addActive (elem) {
     elem.style.cursor = 'default';
     }
     
+
     //Функция для получения текущего курса валюты
     //Расчет текущего курса валют
     function curs (base, symbols, num, elemCalc, elemOne) {
@@ -87,8 +88,6 @@ function addActive (elem) {
         enterCurrency(event, rightCurs, leftCurs, leftInp, rightInp);
     };
 
-
-    
     //Событие нажатия на кнопку лувой секции
     leftBtn.forEach((e)=>{
         e.onclick = (event) => {
@@ -96,7 +95,6 @@ function addActive (elem) {
             changeCurs(event, 'left');
         };
     });
-    
     
     rightBtn.forEach((e)=>{
         e.onclick = (event) => {
