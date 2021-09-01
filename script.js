@@ -14,7 +14,6 @@ function addActive (elem) {
     elem.style.cursor = 'default';
     }
     
-
     //Функция для получения текущего курса валюты
     //Расчет текущего курса валют
     function curs (base, symbols, num, elemCalc, elemOne) {
