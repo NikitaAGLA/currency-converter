@@ -29,7 +29,7 @@ function addActive (elem) {
             //Расчет текущего курса валют
             elemCalc.value = (Number(result.rates[symbols])*Number(num)).toFixed(4);
             elemOne.value = num;
-            cursTitle (num, result.rates[symbols]);
+            cursTitle(num, result.rates[symbols]);
         })
     }
     
