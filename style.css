@@ -16,8 +16,10 @@ header {
     width: 950px;
     align-items: center;
 }
+
 .headerMain ul {
-    margin-left: -105px;
+    margin-left: -70px;
+    padding: 0;
 }
 
 .headerMain li {
