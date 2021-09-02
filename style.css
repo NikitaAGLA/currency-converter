@@ -51,7 +51,7 @@ main{
     margin: auto;
 
 }
-.h1{
+.headerName{
     margin: 0;
 }
 h1{
@@ -68,11 +68,8 @@ h1{
     justify-content: space-between;
 }
 
-.leftSection{
+.leftSection, .rightSection{
     width: 259px;    
-}
-.rightSection{
-    width: 259px;
 }
 .changeCurrency div {
     display: flex;
@@ -88,12 +85,7 @@ h1{
     cursor: pointer;
 }
 
-.leftSection p {
-    color: #9F9F9F;
-    font-weight: 400;
-    font-size: 12px;
-}
-.rightSection p {
+.leftSection p, .rightSection p {
     color: #9F9F9F;
     font-weight: 400;
     font-size: 12px;
